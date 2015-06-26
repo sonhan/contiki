@@ -23,3 +23,8 @@ serialdump-windows -b115200 /dev/comX
 
 ##Run the application
 />java -jar IPSensorCollect.jar /dev/comX
+
+#Dynamic Social Structure
+Android application receiving notifications from sensors deployed in airport
+## Reference
+http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7045423
