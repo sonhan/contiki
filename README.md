@@ -24,6 +24,9 @@ serialdump-windows -b115200 /dev/comX
 ##Run the application
 />java -jar IPSensorCollect.jar /dev/comX
 
+##Reference
+http://thingschat.blogspot.com/2014/04/motion-detection-with-telosb-built-in.html
+
 #Dynamic Social Structure
 Android application receiving notifications from sensors deployed in airport
 ## Reference
