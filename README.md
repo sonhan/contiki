@@ -14,14 +14,12 @@ powertrace_start(CLOCK_SECOND * 10);
 #IP-Sensor-Collect
 Collect data from a light sensor, sending to a sink node and visualize it in a gray scale panel of a Java application run on the host computer 
 ##Prepare
-put in the same folder
-serialdump-windows.exe
-cygwin1.dll
-IPSensorCollect.jar
-##Check Serial port for the sink node, it should be similar to /dev/comX
+- Put in the same folder: serialdump-windows.exe, cygwin1.dll, IPSensorCollect.jar (for Windows)
+- Check Serial port for the sink node, it should be similar to /dev/comX
 
-##Run serial-dump to test
+##Test sink node
+- Run serial-dump to test: 
 serialdump-windows -b115200 /dev/comX
 
-##Run the gateway
+##Run the application
 />java -jar IPSensorCollect.jar /dev/comX
